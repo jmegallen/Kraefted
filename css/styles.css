@@ -15,9 +15,29 @@ a {
   background-color: transparent;
   margin: 0.25em;
 }
-img {
-  max-width: 100%;
+
+html {
+  font-size: 14px;
 }
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
 
 
 /*links*/
@@ -54,6 +74,7 @@ section {
 /*  border: red solid 3px;*/
 }
 
+
 /*backgrounds*/
 
 .cover {
@@ -79,7 +100,7 @@ section {
 /*Index*/
 
 #home {
-  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/snow9.jpg");
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://images.pexels.com/photos/114985/pexels-photo-114985.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -93,7 +114,7 @@ section {
     width: 0;
   }
   to {
-    background-position: center 50%;
+    background-position: left 5%;
     width: 100%;
   }
 }
@@ -104,8 +125,8 @@ section {
   overflow: hidden;
   font-weight: 900;
   font-size: 4em;
-  animation: textanime 8s ease forwards alternate; 
-  background-image:  url(https://cdn.pixabay.com/photo/2014/10/04/12/23/streaming-472987_960_720.jpg);
+  animation: textanime 8s ease forwards; 
+  background-image:  url(https://images.pexels.com/photos/86084/bokeh-lights-night-86084.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -222,3 +243,5 @@ section {
   float: left;
   padding-left: 2em;
 }
+
+
