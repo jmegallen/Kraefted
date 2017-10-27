@@ -69,20 +69,35 @@ body {
 }
 section {
   min-height: 50em;
-  margin: 1em 0;
-  padding-top: 5em;
-/*  border: red solid 3px;*/
+  margin: 1em -1em;
+  padding: 2em 4em;
+  border: none;
 }
-
 
 /*backgrounds*/
 
 .cover {
   z-index: -1000;
-  background-size: cover;
-  background-position: top;
   opacity: 0.9;
-  background: transparent;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bodyimg {
+  background-image: linear-gradient(rgba(255,255,255,.5),
+                                    rgba(255,255,255,.5)), 
+                                    url("../img/chair.jpeg");
+}
+#projects {
+  background-image: linear-gradient(rgba(255,255,255,.5),
+                                    rgba(255,255,255,.5)), 
+                                    url("../img/computer.jpeg");
+}
+#faq {
+  background-image: linear-gradient(rgba(255,255,255,.5),
+                                    rgba(255,255,255,.5)), 
+                                    url("../img/gridMesh.jpg");
 }
 
 /*navbar*/
@@ -91,20 +106,13 @@ section {
   padding-right: 3em;
   padding-left: 3em;
   background-color: transparent;
-/*  border: blue solid 3px;*/
+  border: none;
 }
 .navbar:hover {
   background-color: #FFFFFF;
 }
 
 /*Index*/
-
-#home {
-  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://images.pexels.com/photos/114985/pexels-photo-114985.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
 
 /*splashtext*/
 
@@ -144,8 +152,8 @@ section {
 
 .linktooltip {
   font-size: inherit;
-  background-color: #282C66;
-  color:white;
+  background-color: #e7e7e7;
+  color:inherit;
 }
 
 /*About*/
@@ -222,7 +230,7 @@ section {
 #jmecv {
   min-height: 35em;
   width: 100%;
-  padding: 2em;
+  padding: 0.5em;
 }
 
 
