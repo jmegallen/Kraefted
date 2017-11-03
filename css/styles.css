@@ -68,8 +68,8 @@ body {
   position: relative;
 }
 section {
-  min-height: 50em;
-  margin: 1em -1em;
+  min-height: 55em;
+  margin: 1em -1em 1em -1em;
   padding: 2em 4em;
   border: none;
 }
@@ -92,13 +92,18 @@ section {
 #projects {
   background-image: linear-gradient(rgba(255,255,255,.5),
                                     rgba(255,255,255,.5)), 
-                                    url("../img/computer.jpeg");
+                                    url("../img/wireFrame.jpeg");
 }
 #faq {
   background-image: linear-gradient(rgba(255,255,255,.5),
                                     rgba(255,255,255,.5)), 
-                                    url("../img/gridMesh.jpg");
+                                    url("../img/computer.jpeg");
 }
+/*#contact {
+  background-image: linear-gradient(rgba(255,255,255,.5),
+                                    rgba(255,255,255,.5)), 
+                                    url("../img/gridMesh.jpg");
+}*/
 
 /*navbar*/
 
@@ -132,7 +137,7 @@ section {
   position: relative;
   overflow: hidden;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 5em;
   animation: textanime 8s ease forwards; 
   background-image:  url(https://images.pexels.com/photos/86084/bokeh-lights-night-86084.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb);
   -webkit-text-fill-color: transparent;
@@ -214,11 +219,11 @@ section {
 
 /*modal*/
   
-.asktexthead {
+.texthead {
   text-align: center;
   float: left;
   max-width: 100%;
-  margin: 1em 2em 1em 1em;
+  margin: 1em 0em;
 }
 #cvbut {
   margin: 5em 2em 1em 10em;

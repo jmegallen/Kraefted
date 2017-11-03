@@ -19,6 +19,7 @@ $(document).ready(function() {
   $(function() {
     $('#droptoolbut').tooltip();
   });
+  
   // Stellar
   $('#video').stellar();
   // Smooth scrolling
