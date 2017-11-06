@@ -135,10 +135,9 @@ section {
 .autotext {  
   white-space: nowrap;
   position: relative;
-  overflow: hidden;
   font-weight: 900;
-  font-size: 5em;
-  animation: textanime 8s ease forwards; 
+  font-size: 8em;
+  animation: textanime 10s ease forwards; 
   background-image:  url(https://images.pexels.com/photos/86084/bokeh-lights-night-86084.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -146,8 +145,8 @@ section {
 
 .textanime{
   background-color: transparent;
-  margin: 10em auto;
-  width: 35em;
+  margin: 4em 6em;
+  width: 55em;
   height: auto;
 }
 
