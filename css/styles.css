@@ -38,8 +38,6 @@ html {
   }
 }
 
-
-
 /*links*/
 
 a:link {
@@ -55,9 +53,6 @@ a:hover {
 }
 a:active {
   text-decoration: none;
-}
-.btn-default {
-
 }
 
 /*main*/
@@ -112,8 +107,6 @@ section {
   background-color: #FFFFFF;
 }
 
-/*Index*/
-
 /*splashtext*/
 
 @keyframes textanime {
@@ -132,7 +125,7 @@ section {
   position: relative;
   font-weight: 900;
   font-size: 8em;
-  animation: textanime 10s ease forwards; 
+  animation: textanime 8s ease forwards; 
   background-image:  url(https://images.pexels.com/photos/86084/bokeh-lights-night-86084.jpeg?w=1960&h=1250&auto=compress&cs=tinysrgb);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -145,8 +138,6 @@ section {
   height: auto;
 }
 
-/*projects*/
-
 /*tooltips*/
 
 .linktooltip {
@@ -157,10 +148,6 @@ section {
 
 /*About*/
 
-#about {
-
-}
-
 .picprofile {
   background-image: url("../img/jme2.jpg");
   background-size: contain;
@@ -170,10 +157,6 @@ section {
 }
 
 /* Contact*/
-
-#contact {
-
-}
 
 .form-control {
   width: 80%;
@@ -197,9 +180,6 @@ section {
 
 /*FAQ*/
 
-#faq {
-
-}
 .panel-body {
   margin: 2em;
   padding: 2em;
@@ -209,7 +189,6 @@ section {
   margin-bottom: 5em;
   max-width: 75%;
 }
-
 
 /*modal*/
   
@@ -232,7 +211,6 @@ section {
   padding: 0.5em;
 }
 
-
 /*footer*/
 
 .footer {
@@ -250,5 +228,3 @@ section {
   float: left;
   padding-left: 2em;
 }
-
-
