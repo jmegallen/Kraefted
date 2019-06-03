@@ -99,11 +99,6 @@ section {
                                     rgba(255,255,255,.5)), 
                                     url("../img/computer.jpeg");
 }
-/*#contact {
-  background-image: linear-gradient(rgba(255,255,255,.5),
-                                    rgba(255,255,255,.5)), 
-                                    url("../img/gridMesh.jpg");
-}*/
 
 /*navbar*/
 
@@ -146,7 +141,7 @@ section {
 .textanime{
   background-color: transparent;
   margin: 4em 6em;
-  width: 55em;
+  width: 57em;
   height: auto;
 }
 
