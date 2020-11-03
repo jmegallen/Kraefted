@@ -100,11 +100,11 @@ section {
 .navbar {
   padding-right: 3em;
   padding-left: 3em;
-  background-color: #FFFFFF;
+  background-color: transparent;
   border: none;
 }
 .navbar:hover {
-  background-color: transparent;
+  background-color: #FFFFFF;
 }
 
 /*splashtext*/
